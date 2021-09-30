@@ -1,0 +1,47 @@
+.ContTitulo{
+    text-decoration: underline; 
+    background-color: rgb(155, 126, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 29px;
+    border-radius: 10px;
+    color: white;
+  
+}
+.ContOperaciones{
+    background-color: rgb(155, 126, 0);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 29px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+}
+
+.linea {
+    border-top: 1px solid rgba(255, 255, 255, 0.815);
+    height: 5px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+}
+
+table {
+    width: 100%;
+    border: 1px solid #999;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 0 0 1em 0;
+    caption-side: top;
+ }
+ caption, td, th {
+    padding: 0.3em;
+ }
+ th, td {
+    border-bottom: 1px solid #999;
+    width: 25%;
+ }
+ caption {
+    font-weight: bold;
+    font-style: italic;
+ }

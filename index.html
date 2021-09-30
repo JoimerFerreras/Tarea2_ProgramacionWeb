@@ -1,0 +1,51 @@
+<html>
+    <head>
+       <meta charset = "UTF-8">
+        <title>Calculadora Web </title> <!-- Encabezado de la pagina -->
+        <link rel= "stylesheet" href = "css/index.css">
+    </head>
+   
+    <body>
+        <div class = "ContTitulo"> <!-- Titulo principal -->
+            Calculadora Web by Joimer Ferreras
+        </div>
+
+        <div class = "ContOperaciones"> <!-- Textbox, labels y botones para los numeros-->
+           <h3>Calculadora </h3> 
+
+           <label for="txtNumero1">Numero 1 </label>
+           <br>
+
+           <input type="number" id= txtNumero1>
+           <br> <br>
+           
+           <label for="txtNumero2">Numero 2 </label>
+           <br>
+
+           <input type="number" id= txtNumero2>
+           <br> <br>
+            
+           Selecciona una operacion:
+           <button onclick = "SelecSuma()" id= "btnSumar">+</button>
+           <button onclick = "SelecResta()" id= "btnRestar">-</button>
+           <button onclick = "SelecMult()" id= "btnMultiplicar">x</button>
+           <button onclick = "SelecDivision()" id= "btnDividir">/</button>
+
+           <br> <br>
+           <label id= "lblOpeSelec">Operacion seleccionada: N/A</label>
+
+            <div class = "linea"> </div>
+            <br>
+
+            <button onclick = "VerificarOperacion()" id= "btnCalcular">Calcular</button>
+            <br> <br>
+
+            <label id = "lblResult">Resultado: N/A</label>
+            <br> <br>
+            <button onclick = "ObtenerLocalStorage()" id= "btnObtenerLS">Obtener local storage</button>
+            <br> <br>
+            <button onclick = "BorrarLocalStorage()" id= "btnLimpiarLS">Limpiar local storage</button>
+        </div>
+    </body>
+    <script src="javascript/index.js"></script>
+</html>
